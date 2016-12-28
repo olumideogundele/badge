@@ -52,7 +52,6 @@ Olumide Ogundele
     <gap:plugin name="org.apache.cordova.device"  source="npm"  />
     <gap:plugin name="org.apache.cordova.network-information"  source="npm"  />
     <gap:plugin name="org.apache.cordova.console"   source="npm" />
-    <gap:plugin name="org.apache.cordova.inappbrowser"  source="npm"  />
     <gap:plugin name="org.apache.cordova.network-information"  source="npm"  />
     <access origin="*" subdomains="true" />
 
