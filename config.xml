@@ -13,7 +13,8 @@ Olumide Ogundele
     <gap:platform name="ios" />
     <gap:platform name="android" />
     <gap:platform name="winphone" />
-    <preference name="phonegap-version" value="3.3.0" />
+    
+	<preference name="phonegap-version" value="3.7.0" />
     <preference name="orientation" value="portrait" />
     <preference name="fullscreen" value="false" />
     <preference name="webviewbounce" value="false" />
@@ -42,7 +43,7 @@ Olumide Ogundele
     <feature name="http://api.phonegap.com/1.0/network"/>
 
 	
-	
+	 <plugin name="cordova-plugin-whitelist" source="npm" />
 	
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
 	<gap:plugin name="cordova-plugin-file" source="npm" />
