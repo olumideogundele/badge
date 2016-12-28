@@ -43,13 +43,13 @@ Olumide Ogundele
 
     <gap:plugin name="cordova-plugin-file" source="npm" />
     <gap:plugin name="org.apache.cordova.file-transfer" source="npm"  />
-    <gap:plugin name="org.apache.cordova.geolocation"  />
-    <gap:plugin name="org.apache.cordova.dialogs"  />
-    <gap:plugin name="org.apache.cordova.device"  />
-    <gap:plugin name="org.apache.cordova.network-information"  />
-    <gap:plugin name="org.apache.cordova.console"  />
-    <gap:plugin name="org.apache.cordova.inappbrowser"  />
-    <gap:plugin name="org.apache.cordova.network-information"  />
+    <gap:plugin name="org.apache.cordova.geolocation"  source="npm"  />
+    <gap:plugin name="org.apache.cordova.dialogs"  source="npm"  />
+    <gap:plugin name="org.apache.cordova.device"  source="npm"  />
+    <gap:plugin name="org.apache.cordova.network-information"  source="npm"  />
+    <gap:plugin name="org.apache.cordova.console"   source="npm" />
+    <gap:plugin name="org.apache.cordova.inappbrowser"  source="npm"  />
+    <gap:plugin name="org.apache.cordova.network-information"  source="npm"  />
     <access origin="*" subdomains="true" />
 
     
