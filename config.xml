@@ -4,59 +4,55 @@
 	id        = "com.binarysoft.emumap"
 	versionCode="1"
 	version   = "1.0">
-    <name>BADGing</name>
+    <name>Real Badeg</name>
     <description>
-EXAMPLE	OF BADGE</description>
+The Real Badge	</description>
 <author href="google.com" email="olumideogundele@gmail.com">
-Olumide Ogundele
-</author>
-    <gap:platform name="ios" />
-    <gap:platform name="android" />
-    <gap:platform name="winphone" />
-    
-	<preference name="phonegap-version" value="3.7.0" />
-    <preference name="orientation" value="portrait" />
-    <preference name="fullscreen" value="false" />
-    <preference name="webviewbounce" value="false" />
-    <preference name="DisallowOverscroll" value="true"/>
-    <preference name="disallowOverscroll" value="true" />
-    <preference name="exit-on-suspend" value="false" />
-    <preference name="prerendered-icon" value="false" />
-    <preference name="android-minSdkVersion" value="14" />
-    <preference name="android-installLocation" value="auto" />
-    <preference name="BackgroundColor" value="0xffffffff "/>
-    <preference name="KeepRunning" value="true"/>
-	<icon src="images/logo.png" gap:platform="android" gap:density="ldpi" />
-	<icon src="images/logo.png" gap:platform="android" gap:density="mdpi" />
-	<icon src="images/logo.png" gap:platform="android" gap:density="hdpi" />
-	<icon src="images/logo.png" gap:platform="android" gap:density="xhdpi" />
-	<icon src="images/logo.png" gap:platform="android" gap:density="xxhdpi" />
-		
-	<gap:splash src="images/splash.png" gap:platform="android" gap:density="ldpi" />
-    <gap:splash src="images/splash.png" gap:platform="android" gap:density="mdpi" />
-    <gap:splash src="images/splash.png" gap:platform="android" gap:density="hdpi" />
-    <gap:splash src="images/splash.png" gap:platform="android" gap:density="xhdpi" />
-    <gap:splash src="images/splash.png" gap:platform="android" gap:density="xxhdpi" />
-	
-	<feature name="http://api.phonegap.com/1.0/file-transfer"/>
-    <feature name="http://api.phonegap.com/1.0/geolocation"/>
-    <feature name="http://api.phonegap.com/1.0/network"/>
+olumide</author>
+ <preference name="permissions" value="none"/>
+<preference name="orientation" value="default"/>
+<preference name="target-device" value="universal"/>
+<preference name="fullscreen" value="false"/>
+<preference name="webviewbounce" value="true"/>
+<preference name="prerendered-icon" value="true"/>
+<preference name="stay-in-webview" value="false"/>
+<preference name="detect-data-types" value="true"/>
+<preference name="exit-on-suspend" value="false"/>
+<preference name="disable-cursor" value="false"/>
+<preference name="android-minSdkVersion" value="14"/>
+<preference name="android-installLocation" value="auto"/>
+<preference name="android-fitsSystemWindows" value="true"/>
+<preference name="android-windowSoftInputMode" value="adjustResize"/>
+<preference name="phonegap-version" value="cli-6.3.0"/>
+<preference name="LogLevel" value="VERBOSE"/>
+<preference name="AndroidLaunchMode" value="singleTop"/>
+<preference name="InAppBrowserStorageEnabled" value="true"/>
+<preference name="StatusBarOverlaysWebView" value="false"/>
+<preference name="StatusBarBackgroundColor" value="#000000"/>
+<preference name="StatusBarStyle" value="lightcontent"/>
+<preference name="AutoHideSplashScreen" value="true"/>
+<preference name="SplashScreenDelay" value="1000"/>
+<preference name="FadeSplashScreen" value="false"/>
+<preference name="ShowSplashScreenSpinner" value="false"/>
 
-	
-	 <plugin name="cordova-plugin-whitelist" source="npm" />
-	
-    <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
-	<gap:plugin name="cordova-plugin-file" source="npm" />
-    <gap:plugin name="org.apache.cordova.file-transfer" source="npm"  />
-    <gap:plugin name="org.apache.cordova.geolocation"  source="npm"  />
-    <gap:plugin name="org.apache.cordova.dialogs"  source="npm"  />
-    <gap:plugin name="org.apache.cordova.device"  source="npm"  />
-    <gap:plugin name="org.apache.cordova.network-information"  source="npm"  />
-    <gap:plugin name="org.apache.cordova.console"   source="npm" />
-    <gap:plugin name="org.apache.cordova.network-information"  source="npm"  />
-    <access origin="*" subdomains="true" />
+<gap:plugin name="cordova-plugin-console" source="npm" spec="~1.0.3"/>
+<gap:plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.1"/>
+<gap:plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.2"/>
+<gap:plugin name="cordova-plugin-device" source="npm" spec="~1.1.2"/>
+<gap:plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.2"/>
+<gap:plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.1"/>
+<gap:plugin name="cordova-plugin-statusbar" source="npm" spec="2.1.3"/>
+<gap:plugin name="cordova-plugin-inappbrowser" source="npm" spec="~1.4.0"/>
+<gap:plugin name="cordova-plugin-detect-screenshot" source="npm" spec="1.0.4"/>
+<gap:plugin name="cordova-plugin-ignoremuteswitch" source="npm" spec="~1.0.1"/>
 
-    
+ 
+
+<allow-intent href="https://*/*"/>
+<allow-navigation href="https://*/*"/>
+<access origin="*"/>
+	
+
     
     
 </widget>
